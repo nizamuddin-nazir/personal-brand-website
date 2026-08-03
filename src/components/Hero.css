@@ -209,6 +209,25 @@
     border-bottom: 1px solid #e5e7eb;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+
+.hero {
+    padding: 48px 40px 40px;
+    gap: 48px;
+    min-height: auto;
+}
+
+.hero-image {
+    flex: 0 0 320px;
+    padding-right: 20px;
+}
+
+.hero-image img {
+    max-width: 320px;
+}
+
+}
+
 @media (max-width: 768px) {
 
 .hero {
