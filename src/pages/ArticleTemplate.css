@@ -1,0 +1,149 @@
+.article-page{
+    padding:60px 20px;
+    background:#ffffff;
+}
+
+.article-container{
+    max-width:900px;
+    margin:0 auto;
+    padding:0 12px;
+}
+
+.back-link{
+    display:inline-block;
+    margin-bottom:28px;
+    text-decoration:none;
+    color:#2563eb;
+    font-weight:600;
+}
+
+.back-link:hover{
+    text-decoration:underline;
+}
+
+.article-cover{
+    width:100%;
+    height:340px;
+    border-radius:18px;
+    border:2px dashed #d1d5db;
+    background:#f9fafb;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#9ca3af;
+    font-weight:600;
+    margin-bottom:30px;
+}
+
+.article-pill{
+    display:inline-block;
+    padding:8px 16px;
+    background:#eff6ff;
+    color:#2563eb;
+    border-radius:999px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:18px;
+}
+
+.article-container h1{
+    font-size:clamp(2.2rem,4vw,3.2rem);
+    line-height:1.15;
+    color:#111827;
+    margin-bottom:20px;
+}
+
+.article-lead{
+    font-size:20px;
+    color:#4b5563;
+    line-height:1.8;
+    margin-bottom:40px;
+}
+
+.article-section{
+    margin-bottom:45px;
+}
+
+.article-section h2{
+    font-size:30px;
+    color:#111827;
+    margin-bottom:18px;
+}
+
+.article-section p{
+    color:#4b5563;
+    line-height:1.9;
+    margin-bottom:18px;
+}
+
+.article-section ul{
+    padding-left:24px;
+}
+
+.article-section li{
+    margin-bottom:12px;
+    line-height:1.8;
+    color:#4b5563;
+}
+
+.article-cta{
+    margin-top:70px;
+    padding:40px;
+    border-radius:18px;
+    background:#f9fafb;
+    text-align:center;
+}
+
+.article-cta h3{
+    font-size:32px;
+    margin-bottom:14px;
+    color:#111827;
+}
+
+.article-cta p{
+    color:#6b7280;
+    margin-bottom:30px;
+}
+
+@media (max-width:768px){
+
+    .article-page{
+        padding:40px 20px;
+    }
+
+    .article-cover{
+        height:220px;
+    }
+
+    .article-container h1{
+        font-size:2rem;
+    }
+
+    .article-lead{
+        font-size:18px;
+    }
+
+    .article-section h2{
+        font-size:24px;
+    }
+
+    .article-cta{
+        padding:28px 22px;
+    }
+
+    .article-cta h3{
+        font-size:24px;
+    }
+
+    .advisory-button{
+        width:100%;
+    }
+
+}
+
+.article-reading-time{
+    font-size:14px;
+    color:#6b7280;
+    font-weight:600;
+    margin:12px 0 24px;
+}

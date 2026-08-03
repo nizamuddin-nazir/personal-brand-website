@@ -1,0 +1,6 @@
+lets start from next step
+remember always- one step at a time - no nested steps. once i say done then you give me the exact code. No assumption or guessing ask me what you want and i will give the info. no asking me find the block - let me know exact code to search and exact code to replace. 
+
+if a block is repeated tell me that if teh replacement is once or multiple times
+
+Attendance settings must be applied prospectively only, and each attendance record must store the validation rule snapshot used at the time of check-in. History data should not be impacted from the present day setting changes

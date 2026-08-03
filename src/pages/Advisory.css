@@ -1,0 +1,230 @@
+.advisory-page {
+    padding: 45px 24px 20px;
+    background: #ffffff;
+}
+
+.advisory-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.advisory-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 18px;
+    background: #eff6ff;
+    color: #2563eb;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.advisory-container h1 {
+    font-size: clamp(2.5rem, 4.5vw, 3.8rem);
+    line-height: 1.1;
+    color: #111827;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 18px;
+}
+
+.advisory-intro {
+    max-width: 760px;
+    margin: 0 auto 28px;
+    font-size: 19px;
+    line-height: 1.7;
+    color: #4b5563;
+}
+
+.advisory-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 34px;
+    border-radius: 12px;
+    background: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .2s ease;
+}
+
+.advisory-button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:18px 34px;
+    border-radius:12px;
+    background:#2563eb;
+    color:#fff;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:600;
+    transition:.2s ease;
+    margin-top:18px;
+    margin-bottom:45px;
+}
+
+.advisory-button:hover{
+    background:#1d4ed8;
+}
+
+.advisory-thinking{
+    padding:90px 24px;
+    background:#ffffff;
+}
+
+.thinking-container{
+    max-width:900px;
+    margin:0 auto;
+    text-align:center;
+    padding:0 20px;
+}
+
+.thinking-pill{
+    display:inline-flex;
+    align-items:center;
+    padding:8px 18px;
+    border-radius:999px;
+    background:#eff6ff;
+    color:#2563eb;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:24px;
+}
+
+.thinking-container h2{
+    font-size:clamp(2rem,3vw,2.6rem);
+    line-height:1.2;
+    color:#111827;
+    margin-bottom:20px;
+}
+
+.thinking-container p{
+    max-width:700px;
+    margin:0 auto;
+    color:#6b7280;
+    font-size:18px;
+    line-height:1.8;
+}
+.question-section{
+    padding:90px 24px;
+    background:#f9fafb;
+}
+
+.question-container{
+    max-width:1100px;
+    margin:0 auto;
+    padding:0 20px;
+}
+
+.question-container h2{
+    text-align:center;
+    font-size:clamp(2rem,3vw,2.6rem);
+    color:#111827;
+    line-height:1.2;
+    margin:18px auto 20px;
+    max-width:700px;
+}
+
+.question-intro{
+    max-width:720px;
+    margin:0 auto 50px;
+    text-align:center;
+    color:#6b7280;
+    line-height:1.8;
+}
+
+.question-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));
+    gap:28px;
+    width:100%;
+}
+
+.question-card{
+    box-sizing:border-box;
+    width:100%;
+}
+
+.question-card{
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:18px;
+    padding:30px;
+    transition:.25s ease;
+}
+
+.question-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+}
+
+.question-topic{
+    display:inline-block;
+    padding:6px 14px;
+    background:#eff6ff;
+    color:#2563eb;
+    border-radius:999px;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:18px;
+}
+
+.question-card h3{
+    font-size:22px;
+    line-height:1.45;
+    color:#111827;
+    margin-bottom:18px;
+}
+
+.question-card p{
+    color:#6b7280;
+    line-height:1.8;
+    margin-bottom:22px;
+}
+
+.question-card a{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.question-card a:hover{
+    text-decoration:underline;
+}
+
+@media (max-width:768px){
+
+    .advisory-page{
+        padding:50px 20px;
+    }
+
+    .advisory-container h1{
+        font-size:2.4rem;
+    }
+
+    .advisory-intro{
+        font-size:18px;
+    }
+
+    .advisory-button{
+        width:100%;
+    }
+
+    .question-section{
+        padding:60px 20px;
+    }
+
+    .question-container h2{
+        font-size:1.7rem;
+    }
+
+    .question-card{
+        padding:24px;
+    }
+
+}
