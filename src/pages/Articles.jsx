@@ -2,7 +2,7 @@ import "./Articles.css";
 import { Link } from "react-router-dom";
 
 import hrSoftware from "../assets/HRSoftware.png";
-import erpFail from "../assets/ERPFail.png";
+import erpFail from "../assets/ERPfail.png";
 import softwareIntegration from "../assets/SoftwareIntegration.png";
 import tenQuestions from "../assets/10questions.png";
 
