@@ -224,4 +224,18 @@
     text-align: left;
 }
 
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.primary-btn,
+.secondary-btn {
+    width: 100%;
+    max-width: 340px;
+}
+
 }

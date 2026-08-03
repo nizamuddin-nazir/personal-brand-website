@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./ArticleTemplate.css";
+import tenQuestions from "../assets/10questions.png";
 
 function BuyingGuideArticle() {
   return (
@@ -14,10 +15,13 @@ function BuyingGuideArticle() {
           ← Back to Articles
         </Link>
 
-        <div className="article-cover">
-          Article Cover Image
-        </div>
-
+<div className="article-cover">
+  <img
+    src={tenQuestions}
+    alt="10 Questions to Ask Before Buying Business Software"
+    className="article-cover-image"
+  />
+</div>
         <span className="article-pill">
           Buying Guide
         </span>

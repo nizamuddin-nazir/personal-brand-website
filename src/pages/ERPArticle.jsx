@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./ArticleTemplate.css";
+import erpFail from "../assets/ERPfail.png";
 
 function ERPArticle() {
   return (
@@ -14,9 +15,13 @@ function ERPArticle() {
           ← Back to Articles
         </Link>
 
-        <div className="article-cover">
-          Article Cover Image
-        </div>
+<div className="article-cover">
+  <img
+    src={erpFail}
+    alt="Why Most ERP & HR Software Projects Fail Before Implementation Begins"
+    className="article-cover-image"
+  />
+</div>
 
         <span className="article-pill">
           ERP Strategy

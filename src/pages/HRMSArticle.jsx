@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./ArticleTemplate.css";
-
+import hrSoftware from "../assets/HRSoftware.png";
 function HRMSArticle() {
   return (
     <section className="article-page">
@@ -14,9 +14,13 @@ function HRMSArticle() {
   ← Back to Articles
 </Link>
 
-        <div className="article-cover">
-          Article Cover Image
-        </div>
+<div className="article-cover">
+  <img
+    src={hrSoftware}
+    alt="How to Choose the Right HRMS for Your Business"
+    className="article-cover-image"
+  />
+</div>
 
         <span className="article-pill">
           HR Software

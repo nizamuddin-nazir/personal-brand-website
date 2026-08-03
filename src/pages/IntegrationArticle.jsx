@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./ArticleTemplate.css";
+import softwareIntegration from "../assets/SoftwareIntegration.png";
 
 function IntegrationArticle() {
   return (
@@ -14,9 +15,13 @@ function IntegrationArticle() {
           ← Back to Articles
         </Link>
 
-        <div className="article-cover">
-          Article Cover Image
-        </div>
+<div className="article-cover">
+  <img
+    src={softwareIntegration}
+    alt="Why ERP and HR Software Should Never Be Planned Separately"
+    className="article-cover-image"
+  />
+</div>
 
         <span className="article-pill">
           Software Integration
