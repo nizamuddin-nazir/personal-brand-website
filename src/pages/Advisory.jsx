@@ -87,8 +87,8 @@ function Advisory() {
       The answer depends on your business model, compliance needs, and long-term operational goals—not just cost.
     </p>
 
-    <Link to="/#contact">
-      Let's compare both approaches →
+    <Link to="/payroll-outsourcing-uae/">
+      Explore payroll outsourcing →
     </Link>
 
   </div>

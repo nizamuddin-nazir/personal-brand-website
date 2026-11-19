@@ -18,6 +18,8 @@ import ERPArticle from './pages/ERPArticle';
 import IntegrationArticle from './pages/IntegrationArticle';
 import BuyingGuideArticle from './pages/BuyingGuideArticle';
 import Recognition from './pages/Recognition';
+import Services from './pages/Services';
+import PayrollOutsourcing from './pages/PayrollOutsourcing';
 
 function Home() {
   return (
@@ -85,9 +87,20 @@ function App() {
         />
 
         <Route
+          path="/services"
+          element={<Services />}
+        />
+
+        <Route
+          path="/payroll-outsourcing-uae/*"
+          element={<PayrollOutsourcing />}
+        />
+
+        <Route
           path="/articles"
           element={<Articles />}
         />
+
 
         <Route
           path="/articles/how-to-choose-the-right-hrms"
