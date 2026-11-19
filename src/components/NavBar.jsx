@@ -28,12 +28,26 @@ function Navbar() {
 </Link>
 
 <ul className={`navbar-menu ${menuOpen ? 'active' : ''}`}>
+
 <li>
   <Link
     to="/advisory"
     onClick={() => setMenuOpen(false)}
   >
     Advisory
+  </Link>
+</li>
+<li>
+  <Link
+    to="/services"
+    onClick={() => setMenuOpen(false)}
+  >
+    Services
+  </Link>
+</li>
+<li>
+  <Link to="/services" onClick={() => setMenuOpen(false)}>
+    Services
   </Link>
 </li>
   <li>

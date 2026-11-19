@@ -51,6 +51,7 @@
 }
 
 .contact-form input,
+.contact-form select,
 .contact-form textarea {
     width: 100%;
     padding: 16px 18px;
@@ -63,6 +64,7 @@
 }
 
 .contact-form input:focus,
+.contact-form select:focus,
 .contact-form textarea:focus {
     outline: none;
     border-color: #2563eb;
@@ -107,4 +109,9 @@
         width: 100%;
     }
 
+}
+.contact-form select { appearance: auto; background: #fff; color: #374151; min-height: 54px; max-width: 100%; }
+@media (max-width: 480px) {
+  .contact-container, .contact-form, .form-row { min-width: 0; }
+  .contact-form input, .contact-form select, .contact-form textarea { min-width: 0; }
 }

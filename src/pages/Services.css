@@ -229,3 +229,13 @@
         width: 100%;
     }
 }
+@media (max-width: 480px) {
+ .services-intro { padding: 40px 16px; }
+ .services-intro-container h1 { font-size: clamp(2rem, 9vw, 2.4rem); }
+ .services-intro-text { font-size: 16px; }
+ .services-list-section { padding: 42px 16px; }
+ .service-card { padding: 16px; }
+ .service-card-image { height: 165px; }
+ .services-cta { padding: 42px 16px; }
+ .services-cta-container { padding: 26px 18px; }
+}
